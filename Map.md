@@ -24,12 +24,12 @@ stateDiagram-v2
     lab --> Storyteller
     DoD --> Experement
     CTDS --> Experement
-    state silveon <<fork>>
-    CTDS --> silveon
-    state "Silveon Appreciation Club (CAH)" as CAH
-    silveon --> CAH
-    state "Silveon Appreciation Club (Verbina)" as Verbina
-    silveon --> Verbina
+    state sylveon <<fork>>
+    CTDS --> sylveon
+    state "Sylveon Appreciation Club (CAH)" as CAH
+    sylveon --> CAH
+    state "Sylveon Appreciation Club (Verbina)" as Verbina
+    sylveon --> Verbina
     state "uwu OC RP :woa:" as RP
     CTDS --> RP
     state "Picrew Land" as picrew
