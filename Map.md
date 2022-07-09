@@ -6,6 +6,7 @@ flowchart LR
     DoD --> CTDS(CuratedTumblr)
     subreddit --> CTDS
     DoD --> Iyk(Iyk's Server)
+    DoD --> REM(REM)
     DoD --> luck(hehe... good luck)
     CTDS --> luck
     CTDS --> reconstruction(CTDS Reconstruction Team)
@@ -31,6 +32,10 @@ flowchart LR
     CTDS --> Vmark(Vmark Server)
     Vmark --> concern(:Concern:)
     Vmark --> catposting(catposting)
+    Vmark --> sphere("CTDSphere Map")
+    style sphere fill:#f44
+    CTDS --> sphere
+    lab ---> sphere
     CTDS --> gimblor(gimblor)
     CTDS --> fursona([Fursona Design Chat])
     fursona --> gimblor
