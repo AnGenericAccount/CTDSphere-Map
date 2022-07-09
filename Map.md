@@ -1,5 +1,4 @@
-%% Written using Mermaid
-%% Paste this code into Mermaid.live to view
+```mermaid
 stateDiagram-v2
     direction LR
     state "Tumblr Groupchat" as groupchat
@@ -62,3 +61,4 @@ stateDiagram-v2
     state "The Ungulant" as ungulant
     blade --> ungulant
     blade --> [*]:further splinters
+```
