@@ -1,64 +1,56 @@
 ```mermaid
-stateDiagram-v2
-    direction LR
-    state "Tumblr Groupchat" as groupchat
-    state "r/tumblr" as tumblr
-    tumblr --> groupchat
-    state "Disciples of Diogonies" as DoD
-    groupchat --> DoD
-    DoD --> r/CuratedTumblr
-    state "Curated Tumblr" as CTDS
-    DoD --> CTDS
-    r/CuratedTumblr --> CTDS
-    state "Iyk's Server" as Iyk
-    DoD --> Iyk
-    state "hehe... good luck" as luck
-    DoD --> luck
+flowchart LR
+    tumblr[r/tumblr] --> groupchat([r/tumblr])
+    groupchat --> DoD(Disciples of Diogenes)
+    DoD --> subreddit[r/CuratedTumblr]
+    DoD --> CTDS(CuratedTumblr)
+    subreddit --> CTDS
+    DoD --> Iyk(Iyk's Server)
+    DoD --> luck(hehe... good luck)
     CTDS --> luck
-    state "CTDS Reconstruction Server" as reconstruction
-    CTDS --> reconstruction
-    r/CuratedTumblr --> reconstruction
-    state "The Laboratory" as lab
-    CTDS --> lab
-    lab --> Civilization
-    lab --> Storyteller
-    DoD --> Experement
+    CTDS --> reconstruction(CTDS Reconstruction Team)
+    subreddit --> reconstruction
+    CTDS --> lab(The Laboratory)
+    DoD --> lab
+    subgraph Laboratory [The Laboratory]
+        lab --> Civilization(Civilization)
+        lab --> Storyteller(Storyteller)
+    end
+    DoD --> Experement(The Experement)
     CTDS --> Experement
-    state sylveon <<fork>>
-    CTDS --> sylveon
-    state "Sylveon Appreciation Club (CAH)" as CAH
-    sylveon --> CAH
-    state "Sylveon Appreciation Club (Verbina)" as Verbina
-    sylveon --> Verbina
-    state "uwu OC RP :woa:" as RP
-    CTDS --> RP
-    state "Picrew Land" as picrew
-    CTDS --> picrew
-    state "Salmon Head II" as salmon
-    CTDS --> salmon
-    state "Vmark Server" as Vmark
-    CTDS --> Vmark
-    state ":concern: server" as concern
-    Vmark --> concern
-    Vmark --> catposting
-    CTDS --> gimblor
-    state "Fursona Design Chat" as fursona
-    CTDS --> fursona
+    CTDS --> CAH("Sylveon Appreciation Club (CAH)")
+    CTDS --> Verbina("Sylvion Appreciation Club (Verbina)")
+    CTDS --> tech(tec h)
+    CTDS --> techchat([tec h])
+    subgraph tec[tec h]
+        techchat --> tech
+    end
+    CTDS --> RP(uwu OC RP :woa:)
+    CTDS --> picrew(Picrew Land)
+    CTDS --> salmon(Salmon Head II)
+    CTDS --> Vmark(Vmark Server)
+    Vmark --> concern(:Concern:)
+    Vmark --> catposting(catposting)
+    CTDS --> gimblor(gimblor)
+    CTDS --> fursona([Fursona Design Chat])
     fursona --> gimblor
-    state "Bep (and Toothworm)" as bep
-    gimblor --> bep
-    state rome <<fork>>
+    gimblor --> bep("Bep (and Toothworm)")
+    subgraph Romeposting
+        rome(romeposting)
+        romesub[r/romeposting]
+    end
     CTDS --> rome
-    rome --> romeposting
-    rome --> r/romeposting
-    state "CTD DND" as DND
-    CTDS --> DND
-    state "Riders of the Dawn" as dawn
-    CTDS --> dawn
-    state "Devils Blade" as blade
-    CTDS --> blade
+    CTDS --> romesub
+    CTDS --> DND(CTD DND)
+    CTDS --> dawn(Riders of the Dawn)
+    CTDS --> blade(Devil's Blade)
     dawn --> blade
-    state "The Ungulant" as ungulant
-    blade --> ungulant
-    blade --> [*]:further splinters
+    blade --> ungulant(The Ungulant)
+    blade -.-> further{{further splinters}}
+    subgraph Key [Map Key]
+        direction LR
+        sub[Subredit]
+        discord(Discord Server)
+        chat([Tumblr Groupchat])
+    end
 ```
