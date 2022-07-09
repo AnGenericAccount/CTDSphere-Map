@@ -16,8 +16,8 @@ flowchart LR
         lab --> Civilization(Civilization)
         lab --> Storyteller(Storyteller)
     end
-    DoD --> Experement(The Experement)
-    CTDS --> Experement
+    DoD --> Experiment(The Experiment)
+    CTDS --> Experiment
     CTDS --> CAH("Sylveon Appreciation Club (CAH)")
     CTDS --> Verbina("Sylvion Appreciation Club (Verbina)")
     CTDS --> tech(tec h)
@@ -44,9 +44,12 @@ flowchart LR
     CTDS --> DND(CTD DND)
     CTDS --> dawn(Riders of the Dawn)
     CTDS --> blade(Devil's Blade)
-    dawn --> blade
-    blade --> ungulant(The Ungulant)
-    blade -.-> further{{further splinters}}
+    subgraph riders[The Dice Goblins]
+        dawn --> blade
+        blade --> ungulant(The Ungulant)
+        blade --> terminal(Fortuna Terminal)   
+    end
+    blade -..-> further{{further splinters}}
     subgraph Key [Map Key]
         direction LR
         sub[Subredit]
