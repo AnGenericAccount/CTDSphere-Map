@@ -33,7 +33,7 @@ flowchart LR
     Vmark --> concern(:Concern:)
     Vmark --> catposting(catposting)
     Vmark --> sphere("CTDSphere Map")
-    style sphere fill:#f44
+    style sphere stroke:#f44,stroke-width:2px
     CTDS --> sphere
     lab ---> sphere
     CTDS --> gimblor(gimblor)
