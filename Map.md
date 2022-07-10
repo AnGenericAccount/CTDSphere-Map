@@ -57,7 +57,7 @@ flowchart LR
     blade -..-> further{{further splinters}}
     subgraph Key [Map Key]
         direction LR
-        sub[Subredit]
+        sub[Subreddit]
         discord(Discord Server)
         chat([Tumblr Groupchat])
     end
