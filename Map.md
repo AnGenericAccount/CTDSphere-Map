@@ -7,6 +7,7 @@ flowchart LR
     subreddit-->CTDS
     DoD-->Iyk(Iyk's Server)
     DoD-->REM(REM)
+    DoD-->Sugar(SugarRushSMP)
     DoD-->luck(hehe... good luck)
     CTDS-->luck
     CTDS-->reconstruction(CTDS Reconstruction Team)
