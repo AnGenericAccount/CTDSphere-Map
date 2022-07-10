@@ -55,6 +55,7 @@ flowchart LR
         blade --> terminal(Fortuna Terminal)   
     end
     blade -..-> further{{further splinters}}
+    style further stroke-dasharray:4 2
     subgraph Key [Map Key]
         direction LR
         sub[Subreddit]
