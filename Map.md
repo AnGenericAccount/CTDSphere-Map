@@ -2,7 +2,7 @@
 flowchart LR
     tumblr[r/tumblr]-->groupchat([r/tumblr])
     groupchat-->DoD(Disciples of Diogenes)
-    DoD-->subreddit[r/CuratedTumblr]
+    DoD--->subreddit[r/CuratedTumblr]
     DoD-->CTDS(CuratedTumblr)
     subreddit-->CTDS
     DoD-->Iyk(Iyk's Server)
