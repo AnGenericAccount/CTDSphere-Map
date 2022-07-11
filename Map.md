@@ -8,8 +8,6 @@ flowchart LR
     DoD-->Iyk(Iyk's Server)
     DoD-->REM(REM)
     DoD-->Sugar(SugarRushSMP)
-    DoD-->luck(hehe... good luck)
-    CTDS-->luck
     CTDS-->reconstruction(CTDS Reconstruction Team)
     subreddit-->reconstruction
     CTDS-->lab(The Laboratory)
