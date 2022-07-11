@@ -8,7 +8,7 @@ flowchart LR
     DoD-->Iyk(Iyk's Server)
     DoD-->REM(REM)
     DoD-->Sugar(SugarRushSMP)
-    CTDS-->reconstruction(CTDS Reconstruction Team)
+    CTDS--->reconstruction(CTDS Reconstruction Team)
     subreddit-->reconstruction
     CTDS-->lab(The Laboratory)
     DoD-->lab
@@ -17,7 +17,7 @@ flowchart LR
         lab-->Storyteller(Storyteller)
     end
     DoD-->Experiment(The Experiment)
-    CTDS-->Experiment
+    CTDS--->Experiment
     CTDS-->CAH("Sylveon Appreciation Club (CAH)")
     CTDS-->Verbina("Sylvion Appreciation Club (Verbina)")
     CTDS-->tech(tec h)
