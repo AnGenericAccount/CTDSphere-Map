@@ -15,6 +15,7 @@ flowchart LR
     subgraph Laboratory [The Laboratory]
         lab-->Civilization(Civilization)
         lab-->Storyteller(Storyteller)
+        lab-->Game(Game Night)
     end
     DoD-->Experiment(The Experiment)
     CTDS--->Experiment
