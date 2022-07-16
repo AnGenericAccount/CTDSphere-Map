@@ -46,6 +46,7 @@ flowchart LR
     end
     CTDS-->rome
     CTDS-->romesub
+    CTDS-->hazard(Hazardous Materials)
     CTDS-->DND(CTD DND)
     CTDS-->dawn(Riders of the Dawn)
     CTDS-->blade(Devil's Blade)
