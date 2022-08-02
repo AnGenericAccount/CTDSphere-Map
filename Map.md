@@ -16,6 +16,7 @@ flowchart LR
         lab-->Civilization(Civilization)
         lab-->Storyteller(Storyteller)
         lab-->Game(Game Night)
+        lab-->Construction(Under Construction)
     end
     DoD-->Experiment(The Experiment)
     CTDS--->Experiment
