@@ -23,7 +23,7 @@ flowchart LR
     CTDS-->CAH("Sylveon Appreciation Club (CAH)")
     CTDS-->Verbina("Sylvion Appreciation Club (Verbina)")
     CTDS-->tech(tec h)
-    CTDS-->techchat([tec h])
+    CTDS-->techchat{{tec h}}
     subgraph tec[tec h]
         techchat-->tech
     end
@@ -64,6 +64,7 @@ flowchart LR
         direction LR
         sub[Subreddit]
         discord(Discord Server)
-        chat([Tumblr Groupchat])
+        chat{{Discord Groupchat}}
+        group([Tumblr Groupchat])
     end
 ```
