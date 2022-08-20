@@ -37,6 +37,7 @@ flowchart LR
     style sphere stroke:#f44,stroke-width:2px
     CTDS-->sphere
     lab--->sphere
+    lab--->hippo(hippocryptical paradise)
     CTDS-->gimblor(gimblor)
     CTDS-->fursona([Fursona Design Chat])
     fursona-->gimblor
