@@ -39,7 +39,7 @@ flowchart LR
     lab--->sphere
     lab--->hippo(hippocryptical paradise)
     CTDS-->gimblor(gimblor)
-    CTDS-->fursona([Fursona Design Chat])
+    CTDS-->fursona{{Fursona Design Chat}}
     fursona-->gimblor
     gimblor-->bep("Bep (and Toothworm)")
     subgraph Romeposting
