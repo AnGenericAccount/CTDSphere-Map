@@ -30,6 +30,7 @@ flowchart LR
     CTDS-->RP(uwu OC RP :woa:)
     CTDS-->picrew(Picrew Land)
     CTDS-->salmon(Salmon Head II)
+    salmon-->Alurien(AlurienFlame & Friends)
     CTDS-->Vmark(Vmark Server)
     Vmark-->concern(:Concern:)
     Vmark-->catposting(catposting)
