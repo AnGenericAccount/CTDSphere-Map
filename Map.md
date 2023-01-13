@@ -43,6 +43,8 @@ flowchart LR
     CTDS-->fursona{{Fursona Design Chat}}
     fursona-->gimblor
     gimblor-->bep("Bep (and Toothworm)")
+    gimblor-->nora(nora's inane ramblings)
+    DoD-->nora
     subgraph Romeposting
         rome(romeposting)
         romesub[r/romeposting]
