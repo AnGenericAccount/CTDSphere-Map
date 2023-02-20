@@ -9,7 +9,7 @@ flowchart LR
     DoD-->REM(REM)
     DoD-->Sugar(SugarRushSMP)
     CTDS--->reconstruction(CTDS Reconstruction Team)
-    subreddit-->reconstruction
+    DoD-->reconstruction
     CTDS-->lab(The Laboratory)
     DoD-->lab
     subgraph Laboratory [The Laboratory]
@@ -32,6 +32,8 @@ flowchart LR
     CTDS-->salmon(Salmon Head II)
     salmon-->Alurien(AlurienFlame & Friends)
     CTDS-->Vmark(Vmark Server)
+    subreddit-->amogus
+    CTDS--->amogus(amogus incident gaming official)
     Vmark-->concern(:Concern:)
     Vmark-->catposting(catposting)
     Vmark-->fate(Third Time's The Charm)
