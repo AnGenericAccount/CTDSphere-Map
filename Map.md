@@ -72,5 +72,15 @@ flowchart LR
         discord(Discord Server)
         chat{{Discord Groupchat}}
         group([Tumblr Groupchat])
+        tumblracc[[Tumblr Account]]
+        steamgroup[/Steam Group/]
+        instagramacc>Instagram Account]
     end
+    CTDS-->instagram>curatedtumblrdiscordhighlights Instagram]-->steam[/curatedtumblrdiscordhighlightsfanclub/]
+    instagram-->curatedshitposters[[curated-shitposters]]
+    Vmark-->tiahh(This is a Haunted House)
+    lab-->tiahh
+    Vmark-->pbp(perfection by paradox)
+    blade-->hsdnd(elaborate Homestuck reference DND)
+    Vmark-->hsdnd
 ```
